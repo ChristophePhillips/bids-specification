@@ -283,6 +283,11 @@ entity MUST index the images as follows:
 |Lower `EchoTime` | Higher `EchoTime`                  |
 |Spin Echo (SE) image|Stimulated Echo (STE) image|
 
+Two further parameters MUST also be defined in the JSON file
+| Field name         | Definition |
+| :----------------- | :--------- |
+| `ReadoutTime` |   tbd.         |
+| `MixingTime`       |  Time interval between the SE and STE pulses          |
 
 ```
 └── sub-01/
