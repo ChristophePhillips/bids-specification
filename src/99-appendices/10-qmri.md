@@ -162,7 +162,7 @@ qMRI map.
 * Relevant acquisition parameters that vary across constituents of a
 `grouped scan collection` are added to the JSON file of the resultant
 qMRI map **`in array form`**. 
- > To find out which varying scan parameters are
+To find out which varying scan parameters are
  relevant to a given `grouped scan collection`, please see the
 [method-specific priority levels for qMRI metadata](#prioritylevels) above.
 * The JSON file accompanying a qMRI map which is obtained by
@@ -286,7 +286,7 @@ entity MUST index the images as follows:
 Two further parameters MUST also be defined in the JSON file
 | Field name         | Definition |
 | :----------------- | :--------- |
-| `TotalReadoutTime` |   The effective readout length defined as EffectiveEchoSpacing * PE recon matrix, with EffectiveEchoSpacing = true echo spacing / PE acceleration         |
+| `TotalReadoutTime` |   The effective readout length defined as `EffectiveEchoSpacing * PEReconMatrix`, with `EffectiveEchoSpacing = TrueEchoSpacing / PEacceleration`         |
 | `MixingTime`       |  Time interval between the SE and STE pulses          |
 
 ```
