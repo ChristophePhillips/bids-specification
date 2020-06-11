@@ -286,7 +286,7 @@ entity MUST index the images as follows:
 Two further parameters MUST also be defined in the JSON file
 | Field name         | Definition |
 | :----------------- | :--------- |
-| `ReadoutTime` |   tbd.         |
+| `TotalReadoutTime` |   The effective readout length defined as EffectiveEchoSpacing * PE recon matrix, with EffectiveEchoSpacing = true echo spacing / PE acceleration         |
 | `MixingTime`       |  Time interval between the SE and STE pulses          |
 
 ```
