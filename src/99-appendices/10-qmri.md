@@ -196,7 +196,7 @@ sub-01_T1map.json
            "anat/sub-01_fa-2_VFA.nii.gz",
            "anat/sub-01_fa-3_VFA.nii.gz",
            "anat/sub-01_fa-4_VFA.nii.gz",
-           "fmap/sub-01_B1plusmap.nii.gz"],
+           "fmap/sub-01_TB1map.nii.gz"],
 
 <<Parameters that are constant across members of VFA grouping suffix>>
 
@@ -397,10 +397,10 @@ BIDS-apps. For example:
  |   └── qMRI-software/
  |       └── sub-01/
  |           └── fmap/
- |               ├── sub-01_acq-PDw_B1minusmap.nii.gz    ─────────┐ 
- |               ├── sub-01_acq-PDw_B1minusmap.json      ───────┐ | 
- |               ├── sub-01_B1plusmap.nii.gz             ─────┐ | | 
- |               └── sub-01_B1plusmap.json               ───┐ | | | 
+ |               ├── sub-01_acq-PDw_RB1map.nii.gz        ─────────┐ 
+ |               ├── sub-01_acq-PDw_RB1map.json          ───────┐ | 
+ |               ├── sub-01_TB1map.nii.gz                ─────┐ | | 
+ |               └── sub-01_TB1map.json                  ───┐ | | | 
  └── sub-01/                                                | | | | S
      └── fmap/                                              | | | | Y
          ├── sub-01_acq-bodyPDw_RB1COR.nii.gz               | | | | M
@@ -411,8 +411,8 @@ BIDS-apps. For example:
          ├── sub-01_fa-1_TB1DAM.json                        | | | | 
          ├── sub-01_fa-2_TB1DAM.nii.gz                      | | | | T
          ├── sub-01_fa-2_TB1DAM.json                        | | | | O
-         ├── sub-01_acq-PDw_B1minusmap.nii.gz  ◀────────────├─├─├─┘
-         ├── sub-01_acq-PDw_B1minusmap.json    ◀────────────├─├─┘
-         ├── sub-01_B1plusmap.nii.gz           ◀────────────├─┘
-         └── sub-01_B1plusmap.json             ◀────────────┘
+         ├── sub-01_acq-PDw_RB1map.nii.gz      ◀────────────├─├─├─┘
+         ├── sub-01_acq-PDw_RB1map.json        ◀────────────├─├─┘
+         ├── sub-01_TB1map.nii.gz              ◀────────────├─┘
+         └── sub-01_TB1map.json                ◀────────────┘
 ```
